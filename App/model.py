@@ -46,6 +46,7 @@ def newCatalog():
     una lista vacia para los generos y una lista vacia para la asociación
     generos y libros. Retorna el catalogo inicializado.
     """
+    
     catalog = {'books': None,
                'authors': None,
                'tags': None,
@@ -57,7 +58,6 @@ def newCatalog():
     catalog['tags'] = lt.newList('ARRAY_LIST',
                                  cmpfunction=comparetagnames)
     catalog['book_tags'] = lt.newList('ARRAY_LIST')
-
     return catalog
 
 

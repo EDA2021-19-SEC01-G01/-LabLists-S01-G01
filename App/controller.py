@@ -19,7 +19,7 @@
  * You should have received a copy of the GNU General Public License
  * along withthis program.  If not, see <http://www.gnu.org/licenses/>.
  """
-
+ 
 import config as cf
 import model
 import csv
@@ -52,6 +52,7 @@ def loadData(catalog):
     loadTags(catalog)
     loadBooksTags(catalog)
     sortBooks(catalog)
+
 
 
 def loadBooks(catalog):
